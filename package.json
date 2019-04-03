@@ -1,0 +1,23 @@
+{
+  "name": "heroku_demo1_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccoo23/heroku_demo1_nodejs.git"
+  },
+  "author": "vito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccoo23/heroku_demo1_nodejs/issues"
+  },
+  "homepage": "https://github.com/ccoo23/heroku_demo1_nodejs#readme"
+}
