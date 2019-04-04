@@ -1,6 +1,6 @@
 const http = require('http')
 const url = require('url')
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000 // 不这样写，自己指定端口会没办法访问
 const start = (route, handle) => {
   // 路由函数是参数
   http
