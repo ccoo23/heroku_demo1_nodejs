@@ -1,5 +1,6 @@
 const http = require('http')
 const url = require('url')
+const PORT = process.env.PORT || 5000
 const start = (route, handle) => {
   // 路由函数是参数
   http
@@ -23,7 +24,7 @@ const start = (route, handle) => {
       })*/
       route(handle, pathname, response, request) // 在别处处理request
     })
-    .listen(8889)
+    .listen(PORT)
 }
 console.log('server has started')
 exports.start = start
