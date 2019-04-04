@@ -2,7 +2,7 @@ const server = require('./server')
 const router = require('./router')
 const requestHandeler = require('./requestHandlers')
 const handle = { // 用对象的形式引入不同的处理函数
-  '/': requestHandeler.start,
+  'http://10.72.0.83/': requestHandeler.start,
   '/start': requestHandeler.start,
   '/upload': requestHandeler.upload,
   '/show': requestHandeler.show
